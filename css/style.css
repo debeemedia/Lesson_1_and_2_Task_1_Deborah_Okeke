@@ -25,6 +25,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	height: 500px;
+	font-size: 18px;
+	
+	/* HEIGHT AND FONT-SIZE CHANGES ARE MINE */
 }
 
 ol, ul {
@@ -50,3 +54,90 @@ table {
 
 
 /* Write your css below here */
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #17180d;
+	padding: 10px;
+	text-align: center;
+}
+
+header span {
+	color: #c8b131;
+	font-size: 1.5em;
+}
+
+header img {
+	height: 50px;
+}
+
+nav ul li {
+	margin-top: 10px;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #524709;
+	text-align: center;
+}
+
+section {
+	margin-top: 50px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: center;
+}
+
+section img {
+	height: 250px;
+}
+
+section div.hero-description {
+	width: 50%;
+	padding: 40px;
+	line-height: 1.3em;
+	color: #17180d;
+}
+
+section div.hero-description h1 {
+	margin-bottom: 10px;
+}
+
+section > div {
+	padding: 10px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #f0dd73;
+	color: #17180d;
+	height: 150px;
+	text-align: center;
+}
+
+footer div {
+	padding-bottom: 10px;
+}
+
+footer div.bold {
+	font-weight: bolder;
+}
+
+footer div.italic {
+	font-style: italic;
+}
